@@ -1,0 +1,22 @@
+.header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto 20px;
+  height: 80px;
+  background-color: white;
+
+  &__logo {
+    background: no-repeat center / contain url('../../images/logo.png');
+    width: 150px;
+    height: 80%;
+  }
+
+  &__title {
+    margin: 0;
+  }
+}

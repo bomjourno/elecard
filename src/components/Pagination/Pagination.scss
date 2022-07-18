@@ -1,0 +1,28 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+
+  &__item {
+    width: 30px;
+    margin-right: 5px;
+    padding: 2px 5px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: all .4s;
+    cursor: pointer;
+  }
+
+  &__item:hover {
+    background-color: rgb(150, 150, 150);
+    transition: all .4s;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+  }
+}
